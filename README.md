@@ -1,1 +1,1 @@
-# CommunityContracts
+Community Contracts is a Stardew VAlley Mod that lets you hire townspeople through contracts to gather, process, and deliver goods. Build friendship and skills to unlock larger, higher‑quality rewards, automate services like crab pots and tappers, and grow your farm into a thriving business hub.
