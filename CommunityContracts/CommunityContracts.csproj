@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>CommunityContracts</AssemblyName>
+		<RootNamespace>CommunityContracts</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Lib.Harmony" Version="2.3.6" />
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GenericModConfigMenu">
+		  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\GenericModConfigMenu\GenericModConfigMenu.dll</HintPath>
+		</Reference>
+		<Reference Include="StardewModdingAPI">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\StardewModdingAPI.dll</HintPath>
+		</Reference>
+		<Reference Include="Stardew Valley">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Stardew Valley.exe</HintPath>
+		</Reference>
+		<Reference Include="StardewValley">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\StardewValley.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="CommunityContracts\" />
+	</ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+		<DefineConstants>DEBUG</DefineConstants>
+	</PropertyGroup>
+
+</Project>

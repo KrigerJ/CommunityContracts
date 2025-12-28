@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Community Contracts",
+  "Author": "KrigerJ",
+  "Version": "2.1.0",
+  "Description": "Adds dynamic contract-based quests and rewards to Stardew Valley, expanding gameplay with user-driven progression and goals.",
+  "UniqueID": "KrigerJ.CommunityContracts",
+  "EntryDll": "CommunityContracts.dll",
+  "MinimumApiVersion": "3.18.0",
+  "UpdateKeys": [ "Nexus:38051" ],
+  "ContentPackFor": null,
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ],
+  "ExtraData": {}
+}
